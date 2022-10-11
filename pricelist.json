@@ -1,0 +1,97 @@
+{    
+    "MALL": {
+        "2W": 10,
+        "4W": 20,
+        "6PlusW": 50,
+        "type": "PER_HOUR"
+    },
+    "STADIUM": {
+        "2W": [
+            {
+                "start" : 0,
+                "end": 4,
+                "fees": 30,
+                "type": "INTERVAL"
+            },
+            {
+                "start" : 4,
+                "end": 12,
+                "fees": 60,
+                "type": "INTERVAL"
+            },
+            {
+                "start" : 12,
+                "fees": 100,
+                "type": "PER_HOUR"
+            }
+        ],
+        "4W": [
+            {
+                "start": 0,
+                "end": 4,
+                "fees": 60,
+                "type": "INTERVAL"
+            },
+            {
+                "start": 4,
+                "end": 12,
+                "fees": 120,
+                "type": "INTERVAL"
+            },
+            {
+                "start": 12,
+                "end": null,
+                "fees": 200,
+                "type": "PER_HOUR"
+            }
+        ]
+    },
+    "AIRPORT": {
+        "2W": [
+            {
+                "start" : 0,
+                "end": 1,
+                "fees": 0,
+                "type": "INTERVAL"
+            },
+            {
+                "start" : 1,
+                "end": 8,
+                "fees": 40,
+                "type": "INTERVAL"
+            },
+            {
+                "start" : 8,
+                "end": 24,
+                "fees": 60,
+                "type": "INTERVAL"
+            },
+            {
+                "start" : null,
+                "end": null,
+                "fees": 80,
+                "type": "PER_DAY"
+            }
+        ],
+        "4W": [
+            {
+                "start" : 0,
+                "end": 12,
+                "fees": 60,
+                "type": "INTERVAL"
+            },
+            {
+                "start" : 12,
+                "end": 24,
+                "fees": 80,
+                "type": "INTERVAL"
+            },
+            {
+                "start" : null,
+                "end" : null,
+                "fees": 100,
+                "type": "PER_DAY"
+            }
+        ]
+    }
+}

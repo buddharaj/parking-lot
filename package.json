@@ -1,0 +1,20 @@
+{
+  "name": "parking-lot",
+  "version": "1.0.0",
+  "description": "assignment for parking lot",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha tests"
+  },
+  "author": "buddharaj ambhore",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.24.0",
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "nyc": "^15.1.0",
+    "uuid": "^9.0.0"
+  }
+}
